@@ -1,0 +1,332 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.container-fluid {
+  padding-left: 0rem;
+  padding-right: 0rem;
+  overflow: hidden;
+}
+
+.navbar-li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 10vh;
+  color: #7b7b7b;
+  padding-left: 10vh;
+}
+
+.li1 {
+  font-family: "Sarabun", sans-serif;
+  font-weight: 500;
+  width: 120px;
+  padding-left: 4vh;
+  cursor: pointer;
+}
+
+.li2 {
+  font-family: "Sarabun", sans-serif;
+  font-weight: 500;
+  width: 180px;
+  cursor: pointer;
+}
+
+.li3 {
+  font-family: "Sarabun", sans-serif;
+  font-weight: 500;
+  width: 95px;
+  cursor: pointer;
+}
+
+.li4 {
+  font-family: "Sarabun", sans-serif;
+  font-weight: 500;
+  width: 100px;
+  cursor: pointer;
+}
+
+.li5 {
+  font-family: "Sarabun", sans-serif;
+  font-weight: 500;
+  width: 180px;
+  cursor: pointer;
+}
+
+.li1:hover {
+  color: #000;
+}
+
+.li2:hover {
+  color: #000;
+}
+
+.li3:hover {
+  color: #000;
+}
+
+.li4:hover {
+  color: #000;
+}
+
+.li5:hover {
+  color: #000;
+}
+
+.landing-page {
+  background-image: url(image/image1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+  padding-top: 50vh;
+}
+
+.landing-page h1 {
+  font-family: "Sarabun", sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+
+.landing-page p {
+  font-family: "Sarabun", sans-serif;
+  font-weight: 200;
+  color: #fff;
+}
+
+.btn-lanjut {
+  background-color: #fff;
+  width: 150px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.btn-lanjut:hover {
+  background-color: #a3a3a3;
+}
+
+.btn-req {
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid #fff;
+  color: #fff;
+  width: 200px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.btn-req:hover {
+  color: rgba(255, 255, 255, 0.6);
+  border: 2px solid rgba(255, 255, 255, 0.6);
+}
+
+.paddleft {
+  padding-left: 50px;
+}
+
+.isilp {
+  padding-left: 10vh;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  height: 40vh;
+}
+
+.ket-lp p {
+  color: #fff;
+  font-size: 0.7em;
+}
+
+.isimobil img {
+  width: 250px;
+}
+
+.isimobil .img1 {
+  transition: all 0.3s;
+}
+
+.isimobil .img1:hover {
+  transform: scale(1.05);
+}
+
+.isimobil .img2 {
+  transition: all 0.3s;
+}
+
+.isimobil .img2:hover {
+  transform: scale(1.05);
+}
+
+.isimobil .img3 {
+  transition: all 0.3s;
+}
+
+.isimobil .img3:hover {
+  transform: scale(1.05);
+}
+
+.isimobil .img4 {
+  transition: all 0.3s;
+}
+
+.isimobil .img4:hover {
+  transform: scale(1.05);
+}
+
+.isimobil .img5 {
+  transition: all 0.3s;
+}
+
+.isimobil .img5:hover {
+  transform: scale(1.05);
+}
+
+.isimobil .img6 {
+  transition: all 0.3s;
+}
+
+.isimobil .img6:hover {
+  transform: scale(1.05);
+}
+
+.modelstitle {
+  padding-top: 2vh;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #000;
+  cursor: pointer;
+}
+
+.modelstitle2 {
+  padding-top: 2vh;
+  padding-left: 10vh;
+  cursor: pointer;
+}
+
+.superdeal {
+  height: 100vh;
+  padding-top: 10vh;
+}
+
+.btn-ds {
+  background-color: #000;
+  color: #fff;
+  width: 150px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.btn-ds:hover {
+  background-color: #5d5d5d;
+}
+
+.pdtop {
+  padding-top: 25vh;
+  padding-left: 10vh;
+}
+
+.btn-req2 {
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid #000;
+  color: #000;
+  width: 200px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.btn-req2:hover {
+  color: rgba(30, 30, 30, 0.6);
+  border: 2px solid rgba(30, 30, 30, 0.6);
+}
+
+.ads {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.opsi {
+  padding-top: 2vh;
+}
+
+.opsi1 {
+  cursor: pointer;
+  font-family: "Sarabun", sans-serif;
+  font-weight: 200;
+  transition: all 0.2s;
+}
+
+.opsi1:hover {
+  font-family: "Sarabun", sans-serif;
+  font-weight: 400;
+}
+
+.opsi2 {
+  cursor: pointer;
+  font-family: "Sarabun", sans-serif;
+  font-weight: 200;
+  transition: all 0.2s;
+}
+
+.opsi2:hover {
+  font-family: "Sarabun", sans-serif;
+  font-weight: 400;
+}
+
+.uplift {
+  background-image: url(image/748x2500-audi-urbansphere-concept.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding-left: 10vh;
+}
+
+.square-box {
+  width: 600px;
+  height: 300px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 4vh;
+}
+
+.btn-ds1 {
+  background-color: #000;
+  color: #fff;
+  width: 300px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.btn-ds1:hover {
+  background-color: #5d5d5d;
+}
+
+#footer-info{
+  background-color: rgba(0, 0, 0, 1);
+  color: white;
+}
